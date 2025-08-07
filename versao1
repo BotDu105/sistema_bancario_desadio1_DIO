@@ -29,7 +29,7 @@ while True:
         elif valor >= 1:
             saldo += valor
             extrato += f"\nDepósito: R$ {valor: .2f}\n"
-            print("Deposito realizado com sucesso!\n")
+            print("Depósito realizado com sucesso!\n")
             print(f"Seu saldo foi atualizado para R${valor: .2f}\n\n")
         else:
             print("""\n     ### ERRO ### 
